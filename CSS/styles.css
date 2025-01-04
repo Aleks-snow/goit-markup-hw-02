@@ -1,244 +1,195 @@
-/* === Загальні стилі === */
+/* Reset and global styles */
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: #f7f7f7;
   color: #333;
-  background-color: #f9f9f9;
-  line-height: 1.6;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-/* === Шапка сайту === */
+/* Header styles */
 header {
-  background-color: #222F42;
-  color: white;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header nav {
-  display: flex;
-  align-items: center;
-}
-
-header nav a img {
-  height: 40px;
-  margin-right: 20px;
+header nav a {
+  font-weight: 700;
+  font-size: 24px;
+  color: #2b2b2b;
+  text-decoration: none;
 }
 
 header nav ul {
   display: flex;
-  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-left: 20px;
 }
 
 header nav ul li a {
-  font-size: 18px;
-  color: #FFFFFF;
+  font-weight: 500;
+  color: #2b2b2b;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-  text-decoration: underline;
+  color: #1e90ff;
 }
 
-address ul {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-address ul li a {
-  color: #4D5AE5;
-}
-
-/* === Головний блок === */
+/* Hero section */
 .hero-image {
-  background: url('./images/hero-image.jpg') center/cover no-repeat;
-  padding: 100px 20px;
+  background-color: #2b2b2b;
+  color: #fff;
   text-align: center;
-  color: white;
+  padding: 100px 20px;
 }
 
 .hero-image h1 {
   font-size: 48px;
-  font-weight: bold;
   margin-bottom: 20px;
 }
 
 .hero-image button {
-  padding: 15px 30px;
-  font-size: 18px;
-  color: white;
-  background-color: #4D5AE5;
+  background-color: #1e90ff;
+  color: #fff;
   border: none;
+  padding: 15px 30px;
+  font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .hero-image button:hover {
-  background-color: #3748a0;
+  background-color: #1c7ed6;
 }
 
-/* === Секція "Наші переваги" === */
+/* Section 1 - Advantages */
 .section1 {
-  padding: 40px 20px;
-  background-color: #F4F4FD;
+  background-color: #fff;
+  padding: 60px 40px;
+  text-align: center;
 }
 
 .section1 h2 {
-  text-align: center;
   font-size: 36px;
-  color: #222F42;
   margin-bottom: 40px;
 }
 
 .section1 ul {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .section1 ul li {
-  background-color: white;
+  width: 22%;
+  background-color: #f9f9f9;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  flex: 1 1 calc(25% - 40px);
-  max-width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .section1 ul li h3 {
   font-size: 20px;
-  color: #222F42;
+  margin-bottom: 10px;
 }
 
-.section1 ul li p {
-  font-size: 14px;
-  color: #666;
-}
-
-/* === Секція "Наша команда" === */
+/* Section 2 - Team */
 .section2 {
-  padding: 40px 20px;
+  padding: 60px 40px;
   text-align: center;
 }
 
 .section2 h2 {
   font-size: 36px;
-  color: #222F42;
   margin-bottom: 40px;
 }
 
 .section2 ul {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .section2 ul li {
-  background-color: white;
+  width: 22%;
+  background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  flex: 1 1 calc(25% - 40px);
-  max-width: 250px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .section2 ul li img {
-  border-radius: 8px;
+  border-radius: 50%;
   margin-bottom: 15px;
 }
 
-.section2 ul li h3 {
-  font-size: 20px;
-  color: #222F42;
-}
-
-.section2 ul li p {
-  font-size: 14px;
-  color: #666;
-}
-
-/* === Секція "Наше портфоліо" === */
+/* Section 3 - Portfolio */
 .section3 {
-  padding: 40px 20px;
-  background-color: #F9FAFB;
+  background-color: #f7f7f7;
+  padding: 60px 40px;
 }
 
 .section3 h2 {
-  text-align: center;
   font-size: 36px;
-  color: #222F42;
   margin-bottom: 40px;
+  text-align: center;
 }
 
-.section3 .row1,
-.section3 .row2 {
+.section3 ul {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
   gap: 20px;
 }
 
 .section3 ul li {
-  background-color: white;
+  width: calc(33.333% - 20px);
+  background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  flex: 1 1 calc(33.33% - 40px);
-  max-width: 360px;
 }
 
 .section3 ul li img {
+  width: 100%;
   border-radius: 8px;
   margin-bottom: 15px;
 }
 
-.section3 ul li h3 {
-  font-size: 20px;
-  color: #222F42;
-}
-
-.section3 ul li p {
-  font-size: 14px;
-  color: #666;
-}
-
-/* === Футер === */
+/* Footer styles */
 footer {
-  padding: 20px 40px;
-  background-color: #222F42;
-  color: white;
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 40px;
   text-align: center;
 }
 
-footer a img {
-  height: 40px;
-  margin-bottom: 10px;
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 footer p {
-  font-size: 14px;
-  color: #bbb;
+  margin-top: 10px;
+  font-size: 16px;
 }
