@@ -119,6 +119,7 @@ header{
   text-align: center;
   width: 496px;
   height: 120px;
+  display: center;
 }
 
 .hero-button
@@ -136,6 +137,7 @@ header{
   padding: 16px 32px;
   width: 169px;
   height: 56px;
+  display: center;
 }
 
 .hero-button:hover,
@@ -143,23 +145,28 @@ header{
   background-color: #4d5ae5;
 }
 
-.company__title {
-  color: var(--color-navy-blue);
+.section-1{
+  flex: 0 1 25%;
+}
+
+.section-1
+ {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.company__text {
-  color: var(--color-slate);
+.section-1-text {
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.works__title {
-  color: var(--color-navy-blue);
+.section-1-title {
+  color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
