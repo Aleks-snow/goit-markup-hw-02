@@ -1,12 +1,16 @@
+/* === Загальні стилі === */
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
-  text-align: center;
-  color: #434455;
-  background-color: #fff;
-  width: 1440px;
-  height: 3300px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 ul {
@@ -15,23 +19,226 @@ ul {
   margin: 0;
 }
 
-p {
+a {
   text-decoration: none;
   color: inherit;
 }
 
+/* === Шапка сайту === */
 header {
-    border-bottom: 1px solid #e7e9fc;
-    width: 1440px;
-    height: 72px;
-    background: #fff;
-    text-align: center;
-    display: flex;
-    
+  background-color: #222F42;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+address ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+address ul li a {
+  color: #4D5AE5;
+}
+
+/* === Головний блок === */
 .hero-image {
-  width: 1440px;
-  height: 600px;
-  background: #2e2f42;
+  background: url('./images/hero-image.jpg') center/cover no-repeat;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero-image h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-image button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #4D5AE5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image button:hover {
+  background-color: #3748a0;
+}
+
+/* === Секція "Наші переваги" === */
+.section1 {
+  padding: 40px 20px;
+  background-color: #F4F4FD;
+}
+
+.section1 h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #222F42;
+  margin-bottom: 40px;
+}
+
+.section1 ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.section1 ul li {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1 1 calc(25% - 40px);
+  max-width: 250px;
+}
+
+.section1 ul li h3 {
+  font-size: 20px;
+  color: #222F42;
+}
+
+.section1 ul li p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* === Секція "Наша команда" === */
+.section2 {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section2 h2 {
+  font-size: 36px;
+  color: #222F42;
+  margin-bottom: 40px;
+}
+
+.section2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.section2 ul li {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1 1 calc(25% - 40px);
+  max-width: 250px;
+}
+
+.section2 ul li img {
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.section2 ul li h3 {
+  font-size: 20px;
+  color: #222F42;
+}
+
+.section2 ul li p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* === Секція "Наше портфоліо" === */
+.section3 {
+  padding: 40px 20px;
+  background-color: #F9FAFB;
+}
+
+.section3 h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #222F42;
+  margin-bottom: 40px;
+}
+
+.section3 .row1,
+.section3 .row2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.section3 ul li {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1 1 calc(33.33% - 40px);
+  max-width: 360px;
+}
+
+.section3 ul li img {
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.section3 ul li h3 {
+  font-size: 20px;
+  color: #222F42;
+}
+
+.section3 ul li p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* === Футер === */
+footer {
+  padding: 20px 40px;
+  background-color: #222F42;
+  color: white;
+  text-align: center;
+}
+
+footer a img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #bbb;
 }
