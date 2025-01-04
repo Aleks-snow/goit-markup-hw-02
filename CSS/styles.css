@@ -3,14 +3,35 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
   text-align: center;
-  color: #333;
+  color: #434455;
   background-color: #fff;
   width: 1440px;
   height: 3300px;
 }
 
-.top-line{
-  border-bottom: 1px solid #e7e9fc;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
+    background: #fff;
+    text-align: center;
+    display: flex;
+    
+}
+
+.hero-image {
   width: 1440px;
-  height: 72px
+  height: 600px;
+  background: #2e2f42;
 }
