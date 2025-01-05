@@ -162,7 +162,7 @@ body {
     /* Встановлено напрямок елементів */
     gap: 24px;
     /* Відстань між елементами */
-    width: calc(25% - 10px);
+    width: calc(25% - 156px);
       object-fit: cover;
     
 }
@@ -179,6 +179,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   
 }
 
@@ -188,6 +189,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
   
 }
 
@@ -205,10 +207,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-    display: inline-block;
-    /* Для підтримки позиціонування */
-    padding: 10px;
-    border-radius: 4px;
+  
 }
 
 .footer-logo-white {
