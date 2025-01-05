@@ -43,17 +43,12 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-    display: inline-block; /* Додано для елементів, щоб працював hover/focus */
-    padding: 10px 15px; /* Додано для покращення взаємодії */
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
 }
 
 .header-nav-link a:hover,
 .header-nav-link a:focus {
   color: #404bbf;
-   border-bottom: 2px solid #404bbf;
-    /* Додано підкреслення при hover/focus */
+   
 }
 
 .contacts {
@@ -77,11 +72,7 @@ body {
 
 .hero-image {
   background-color: #2e2f42;
-    position: relative;
-    /* Додано для контролю позиціонування фону */
-    width: 100%;
-    height: 600px;
-  
+   
 }
 
 .hero-title {
@@ -104,12 +95,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  padding: 16px 32px;
-    display: inline-block;
-    border-radius: 4px;
-    /* Додано для округлення кнопки */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* Додано для тіні кнопки */
 }
 
 .hero-button:hover,
@@ -156,21 +141,13 @@ body {
 
 .team-list {
   background-color: #ffffff;
-    display: flex;
-    /* Додано для флекс-контейнера */
-    flex-direction: row;
-    /* Встановлено напрямок елементів */
-    gap: 24px;
-    /* Відстань між елементами */
-    width: calc(25% - 156px);
-      object-fit: cover;
+  
     
 }
 
 .team-player {
   background-color: #ffffff;
-    flex-grow: 1;
-    /* Властивість для розширення */
+    
 }
 
 .player-name {
@@ -229,17 +206,6 @@ body {
 
 /* section portfolio */
 
-.portfolio-list{
-  display: flex;
-    /* Додано для флекс-контейнера */
-    flex-wrap: wrap;
-    /* Встановлено напрямок елементів */
-    gap: 24px;
-    /* Відстань між елементами */
-    width: calc(33.333% - 10px);
-    object-fit: cover;
-}
-
 .portfolio-title {
   color: #2e2f42;
   font-weight: 700;
@@ -248,11 +214,7 @@ body {
   text-align: center;
   line-height: 1.11;
   text-transform: capitalize;
-      padding-bottom: 15px;
-      border-bottom: 2px solid #e0e0e0;
-      /* Додано для підкреслення заголовка */
-  
-  
+       
 }
 
 .portfolio-service {
@@ -261,11 +223,7 @@ body {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
-    padding: 10px;
-      margin-top: 10px;
-      border-radius: 5px;
-      /* Додано для округлення елементів */
-     
+    
 }
 
 .portfolio-text {
@@ -274,8 +232,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-      display: block;
-      margin-top: 10px;
-      
-     
+          
 }
