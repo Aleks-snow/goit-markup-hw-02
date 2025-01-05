@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
@@ -40,7 +40,7 @@ body {
   
 }
 
-.header-nav-link a {
+.header-nav-link a{
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -52,9 +52,6 @@ body {
   color: #404bbf;
 }
 
-.contacts {
-  font-style: normal;
-}
 
 .header-contacts-item a{
   color:#434455;
