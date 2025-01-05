@@ -162,6 +162,9 @@ body {
     /* Встановлено напрямок елементів */
     gap: 24px;
     /* Відстань між елементами */
+    width: calc(25% - 10px);
+      object-fit: cover;
+    
 }
 
 .team-player {
@@ -191,6 +194,7 @@ body {
 .footer 
 {
   background-color: #2e2f42;
+  height: 312px;
 }
 
 .footer-logo-blue {
@@ -229,10 +233,12 @@ body {
 .portfolio-list{
   display: flex;
     /* Додано для флекс-контейнера */
-    flex-direction: row;
+    flex-wrap: wrap;
     /* Встановлено напрямок елементів */
     gap: 24px;
     /* Відстань між елементами */
+    width: calc(33.333% - 10px);
+    object-fit: cover;
 }
 
 .portfolio-title {
@@ -260,7 +266,7 @@ body {
       margin-top: 10px;
       border-radius: 5px;
       /* Додано для округлення елементів */
-      background-color: #f4f4f4;
+     
 }
 
 .portfolio-text {
@@ -271,5 +277,6 @@ body {
   letter-spacing: 0.02em;
       display: block;
       margin-top: 10px;
+      
      
 }
