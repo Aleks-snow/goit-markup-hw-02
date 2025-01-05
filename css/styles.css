@@ -10,9 +10,6 @@ body {
   list-style: none;
  }
 
-.link {
-  text-decoration: none;
-}
 
 /* Main Page*/
 
@@ -137,12 +134,6 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 
-}
-
-.team-list {
-  background-color: #ffffff;
-  
-    
 }
 
 .team-player {
