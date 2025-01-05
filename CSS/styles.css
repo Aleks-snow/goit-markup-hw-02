@@ -44,7 +44,7 @@ body
 
 .header-nav-link
  {
-  color: #4d5ae5;
+  color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -53,7 +53,7 @@ body
 .header-nav-link:hover,
 .header-nav-link:focus 
 {
-  color: #2e2f42;
+  color: #404bbf
 }
 
 .contacts 
@@ -63,21 +63,20 @@ body
 
 .contacts-link 
 {
-  color:#4d5ae5;
+  color: #2e2f42;
   font-weight: 400;
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  
 }
 
 .contacts-link:hover,
 .contacts-link:focus
  {
-  color: #2e2f42;
-}
+  color: #404bbf
 
-
+ }
 .hero-image
  {
   background-color: #2e2f42;
@@ -164,7 +163,6 @@ body
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .team-list 
