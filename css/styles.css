@@ -160,7 +160,7 @@ body {
     /* Додано для флекс-контейнера */
     flex-direction: row;
     /* Встановлено напрямок елементів */
-    gap: 20px;
+    gap: 24px;
     /* Відстань між елементами */
 }
 
@@ -226,6 +226,15 @@ body {
 
 /* section portfolio */
 
+.portfolio-list{
+  display: flex;
+    /* Додано для флекс-контейнера */
+    flex-direction: row;
+    /* Встановлено напрямок елементів */
+    gap: 24px;
+    /* Відстань між елементами */
+}
+
 .portfolio-title {
   color: #2e2f42;
   font-weight: 700;
@@ -234,8 +243,6 @@ body {
   text-align: center;
   line-height: 1.11;
   text-transform: capitalize;
-    text-align: left;
-      /* Вирівнювання тексту по лівому краю */
       padding-bottom: 15px;
       border-bottom: 2px solid #e0e0e0;
       /* Додано для підкреслення заголовка */
@@ -264,5 +271,5 @@ body {
   letter-spacing: 0.02em;
       display: block;
       margin-top: 10px;
-      font-size: 14px;
+     
 }
