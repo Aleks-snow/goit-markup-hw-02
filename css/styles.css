@@ -36,15 +36,15 @@ body {
   text-transform: uppercase;
 }
 
-.header-nav-link {
+.header-nav-link .header-nav-link a {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus {
+.header-nav-link .header-nav-link a:hover,
+.header-nav-link .header-nav-link a:focus {
   color: #404bbf;
 }
 
@@ -52,8 +52,8 @@ body {
   font-style: normal;
 }
 
-.contacts-link {
-  color: #2e2f42;
+.header-contacts-item .header-contacts-item a{
+  color: #434455;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -61,16 +61,15 @@ body {
 
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.header-contacts-item .header-contacts-item a:hover,
+.header-contacts-item .header-contacts-item a:focus {
   color: #404bbf;
 
 }
 
 .hero-image {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
+  
 }
 
 .hero-title {
@@ -87,16 +86,13 @@ body {
 .hero-button {
   color: #ffffff;
   background-color: #4d5ae5;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  border-radius: 4px;
-  padding: 16px 32px;
-
+ 
 }
 
 .hero-button:hover,
@@ -162,7 +158,8 @@ body {
   text-align: center;
 }
 
-.player-job {
+.player-job 
+{
   color: #434455;
   font-weight: 400;
   font-size: 16px;
@@ -170,10 +167,9 @@ body {
   text-align: center;
 }
 
-.footer {
+.footer 
+{
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
 }
 
 .footer-logo-blue {
@@ -183,7 +179,6 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .footer-logo-white {
@@ -193,7 +188,7 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  
 }
 
 .footer-text {
