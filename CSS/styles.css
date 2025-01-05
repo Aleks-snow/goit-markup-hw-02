@@ -44,7 +44,7 @@ body
 
 .header-nav-link
  {
-  color: #2e2f42;
+  color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -53,7 +53,7 @@ body
 .header-nav-link:hover,
 .header-nav-link:focus 
 {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .contacts 
@@ -63,17 +63,18 @@ body
 
 .contacts-link 
 {
-  color: #434455;
+  color:#4d5ae5;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .contacts-link:hover,
 .contacts-link:focus
  {
-  color: #404bbf;
+  color: #2e2f42;
 }
 
 
@@ -233,6 +234,15 @@ body
 }
 
 /* section portfolio */
+
+.portfolio-title{
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  }
 
 .portfolio-service
  {
