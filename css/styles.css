@@ -3,14 +3,16 @@ body {
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
 }
 
 .list {
   list-style: none;
  }
 
-
+p{
+  color:forestgreen;
+}
 /* Main Page*/
 
 .logo-blue {
@@ -19,7 +21,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
  
 }
@@ -30,7 +32,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
   
 }
@@ -57,7 +59,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
 
 }
 
@@ -74,11 +76,10 @@ body {
 
 .hero-title {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   text-align: center;
 
 }
@@ -86,11 +87,10 @@ body {
 .hero-button {
   color: #ffffff;
   background-color: #4d5ae5;
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: -0.04em;
   cursor: pointer;
 }
 
@@ -110,7 +110,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
 }
 
 .section-one-text {
@@ -118,11 +118,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.team {
-  background-color: #f4f4fd;
+  letter-spacing: -0.02em;
 }
 
 .team-title {
@@ -131,7 +127,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   text-transform: capitalize;
 
 }
@@ -146,7 +142,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   text-align: center;
   
 }
@@ -173,7 +169,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
   
 }
@@ -184,7 +180,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
  }
 
@@ -201,7 +197,7 @@ body {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   text-align: center;
   line-height: 1.11;
   text-transform: capitalize;
@@ -212,7 +208,7 @@ body {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   line-height: 1.2;
     
 }
@@ -222,6 +218,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
           
 }
