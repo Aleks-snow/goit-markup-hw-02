@@ -4,8 +4,7 @@ body {
   background-color: #ffffff;
  }
 
-ul,
-ol {
+ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
@@ -30,10 +29,10 @@ img {
 }
 
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
 
-.container{
+.container {
   width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
@@ -45,7 +44,7 @@ button {
 .header-container{
   display: flex;
   align-items: center;
-}
+  }
 
 .header-nav{
   display: flex;
@@ -138,6 +137,9 @@ button {
 }
 
 .hero-title {
+  width: 496px;
+  margin: 0 auto;
+  padding-top: 188px 0;
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
@@ -155,6 +157,13 @@ button {
   line-height: 1.5;
   letter-spacing: -0.04em;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
 }
 
 .hero-button:hover,
