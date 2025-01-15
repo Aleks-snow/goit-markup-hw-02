@@ -305,7 +305,7 @@ button {
   text-align: center;
   line-height: 1.11;
   text-transform: capitalize;
-       
+  padding: 72px;     
 }
 
 .portfolio-service {
